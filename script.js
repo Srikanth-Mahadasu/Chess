@@ -191,7 +191,7 @@ $(document).ready(function() {
 
 	//Set up board game
 	$(function() {		 
-		$('#player').html(chessPieces.black.king);
+		$('#player').html(chessPieces.white.king);
 
 		 //Set up color for boxes, chess pieces
 		 for(var i = 0; i < 8; i++) {
